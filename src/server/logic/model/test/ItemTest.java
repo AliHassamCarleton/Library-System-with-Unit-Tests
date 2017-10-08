@@ -37,11 +37,19 @@ public class ItemTest {
 	}
 	
 	@Test
-	public void getItemIDtest(){
+	public void getItemIDtesting(){
 		
 		Item i1;
 		i1=getItemObject();
 		assertEquals(gettestId(),i1.getItemid() );
+	}
+	
+	@Test
+	public void setItemIDtesting(){
+		Item i1;
+		i1=getItemObject();
+		i1.setItemid(101);
+		assertEquals(101, i1.getItemid());
 	}
 	
 
