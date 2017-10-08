@@ -13,7 +13,7 @@ public class FeeTest {
 	@Test
 	public void feeConsuctorTesting() {
 		
-		assertNotNull(getFeeObject());
+		assertNotNull(new Fee (1, 2));
 	
 
 
