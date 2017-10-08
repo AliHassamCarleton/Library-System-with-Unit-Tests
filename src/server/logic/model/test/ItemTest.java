@@ -80,7 +80,16 @@ public class ItemTest {
 		i1=getItemObject();
 		assertEquals(gettestCopynumber(), i1.getCopynumber());
 	}
-
+	
+	@Test
+	public void setCopyNumbertest(){
+		
+		Item i1;
+		i1=getItemObject();
+		i1.setCopynumber("2");
+		assertEquals("2", i1.getCopynumber());	
+		
+	}
 
 	
 }
