@@ -21,10 +21,18 @@ public class FeeTest {
 
 	public Fee getFeeObject(){
 		
-		Fee f1= new Fee (1, 2);
+		int userid=1;
+		int fee= 2;
+		Fee f1= new Fee (userid, fee);
 		return f1;
 		
 	}
+	
+	@Test
+	public void getUseridTesting(){
 
+		assertEquals(1,getFeeObject().getUserid());
+		
+	}
 	
 }
