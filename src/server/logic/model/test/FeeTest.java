@@ -35,4 +35,18 @@ public class FeeTest {
 		
 	}
 	
+	@Test
+	public void setUseridTesting(){
+		
+		assertEquals(1, getFeeObject().getUserid());
+		
+	}
+	@Test
+	public void getFeeTesting(){
+		
+		assertEquals(2,getFeeObject().getFee());
+		
+	}
+
+	
 }
