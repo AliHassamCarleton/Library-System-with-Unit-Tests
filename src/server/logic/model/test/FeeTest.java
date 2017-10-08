@@ -47,6 +47,16 @@ public class FeeTest {
 		assertEquals(2,getFeeObject().getFee());
 		
 	}
+	
+	@Test
+	public void setFeeTesting(){
+		
+		Fee f1= getFeeObject();
+		f1.setFee(3);
+		assertEquals(3,f1.getFee());
+		
+	}
+	
 
 	
 }
