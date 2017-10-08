@@ -2,6 +2,7 @@ package server.logic.model.test;
 
 import static org.junit.Assert.*;
 import server.logic.model.*;
+//import temp.Item;
 import temp.Item;
 
 import org.junit.Test;
@@ -72,6 +73,13 @@ public class ItemTest {
 		
 	}
 	
+	@Test
+	public void getcopynumbertest(){
+		
+		Item i1;
+		i1=getItemObject();
+		assertEquals(gettestCopynumber(), i1.getCopynumber());
+	}
 
 
 	
