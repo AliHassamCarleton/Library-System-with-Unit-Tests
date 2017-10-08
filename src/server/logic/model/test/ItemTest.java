@@ -2,8 +2,7 @@ package server.logic.model.test;
 
 import static org.junit.Assert.*;
 import server.logic.model.*;
-//import temp.Item;
-import temp.Item;
+
 
 import org.junit.Test;
 
@@ -63,7 +62,7 @@ public class ItemTest {
 	}
 	
 	@Test
-	public void setISBNtest(){
+	public void setISBNtesting(){
 
 		Item i1;
 		i1=getItemObject();
@@ -74,7 +73,7 @@ public class ItemTest {
 	}
 	
 	@Test
-	public void getcopynumbertest(){
+	public void getcopynumbertesting(){
 		
 		Item i1;
 		i1=getItemObject();
@@ -82,7 +81,7 @@ public class ItemTest {
 	}
 	
 	@Test
-	public void setCopyNumbertest(){
+	public void setCopyNumbertesting(){
 		
 		Item i1;
 		i1=getItemObject();
