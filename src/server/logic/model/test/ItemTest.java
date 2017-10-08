@@ -2,7 +2,6 @@ package server.logic.model.test;
 
 import static org.junit.Assert.*;
 import server.logic.model.*;
-import temp.Item;
 
 import org.junit.Test;
 
@@ -52,6 +51,15 @@ public class ItemTest {
 		assertEquals(101, i1.getItemid());
 	}
 	
+	@Test
+	public void getISBNtesting(){
+		
+		Item i1;
+		i1=getItemObject();
+		assertEquals(gettestIsbn(), i1.getISBN());
+
+	}
+
 
 	
 }
