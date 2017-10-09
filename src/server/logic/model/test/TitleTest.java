@@ -15,6 +15,22 @@ public class TitleTest {
 		
 	}
 	
+	public Title getTitleObject(){
+		
+		Title t1;
+		t1= new Title ("23456789987","Mobi Dick");	
+		return t1;
+		
+	}
+	
+	@Test
+	public void gettestISBN(){
+			
+		Title t1= getTitleObject();
+		assertEquals("23456789987", t1.getISBN());
+			
+	}
+	
 	
 
 }
