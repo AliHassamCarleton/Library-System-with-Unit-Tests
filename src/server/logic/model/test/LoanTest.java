@@ -54,6 +54,22 @@ public class LoanTest {
 	}
 	
 	
+	//@Test
+	public void getISBNtesting(){
+		
+		Loan l1= gettestLoan();
+		assertEquals("1234567",l1.getIsbn());
+			
+	}
+	
+	//@Test
+	public void setISBNtest(){
+		Loan l1 = gettestLoan();
+		l1.setIsbn("2345678");
+		assertEquals("2345678", l1.getIsbn());
+	}
+	
+	
 	
 	
 	
