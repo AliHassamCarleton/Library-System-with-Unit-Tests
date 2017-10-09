@@ -108,6 +108,12 @@ public class LoanTest {
 			
 	}
 	
+	@Test
+	public void setRenewstatetesting(){
+		Loan l1 = gettestLoan();
+		l1.setRenewstate("not renewed");
+		assertEquals("not renewed", l1.getRenewstate());
+	}
 	
 	
 	
