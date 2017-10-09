@@ -93,6 +93,13 @@ public class LoanTest {
 			
 	}
 	
+	@Test
+	public void setDatetesting(){
+		Loan l1 = gettestLoan();
+		l1.setDate(gettestDate());
+		assertEquals(gettestDate(), l1.getDate());
+	}
+	
 	
 	
 	
