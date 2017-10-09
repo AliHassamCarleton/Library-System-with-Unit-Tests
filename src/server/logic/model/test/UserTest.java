@@ -27,5 +27,13 @@ public class UserTest {
 		assertEquals(1,u1.getUserid());
 		
 	}
+	
+	@Test
+	public void setUserIDTesting(){
+			User u1= getUserObject();
+			u1.setUserid(2);
+			assertEquals(2, u1.getUserid());
+	}
+	
 
 }
