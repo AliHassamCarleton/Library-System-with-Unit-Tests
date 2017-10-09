@@ -70,7 +70,13 @@ public class LoanTest {
 	}
 	
 	
-	
+	@Test
+	public void getCopynumbertesting(){
+		
+		Loan l1= gettestLoan();
+		assertEquals("1",l1.getCopynumber());
+			
+	}
 	
 	
 	
