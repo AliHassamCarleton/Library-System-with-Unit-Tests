@@ -43,6 +43,12 @@ public class UserTest {
 		
 	}
 	
+	@Test
+	public void setUserNameTesting(){
+			User u1= getUserObject();
+			u1.setUsername("User Ali");
+			assertEquals("User Ali", u1.getUsername());
+	}
 	
 	
 	
