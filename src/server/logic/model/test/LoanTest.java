@@ -12,7 +12,8 @@ import java.util.Date;
 
 
 public class LoanTest {
-
+	
+	DateFormat format1 = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
 
 	
 	@Test
@@ -24,7 +25,6 @@ public class LoanTest {
 	
 	public Date gettestDate(){
 		
-		DateFormat format1 = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
 		Date date = new Date();
 		
 		return date;
@@ -37,6 +37,35 @@ public class LoanTest {
 		return l1;
 		
 	}
+	
+	
+	public void getUserIDtesting(){
+			
+		Loan l1= gettestLoan();
+		assertEquals(1,l1.getUserid());
+			
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
