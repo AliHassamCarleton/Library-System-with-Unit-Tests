@@ -10,12 +10,12 @@ public class UserTest {
 
 	@Test
 	public void userConstructorPassTesting(){
-		assertNotNull(new User(1, "User 1", "user 1 password"));
+		assertNotNull(new User(1, "User 1", "User 1 password"));
 	}
 	
 	public User getUserObject(){
 		
-		User u1= new User(1, "User 1", "user 1 password");	
+		User u1= new User(1, "User 1", "User 1 password");	
 		return u1;
 		
 	}
@@ -48,6 +48,14 @@ public class UserTest {
 			User u1= getUserObject();
 			u1.setUsername("User Ali");
 			assertEquals("User Ali", u1.getUsername());
+	}
+	
+	@Test
+	public void getPasswordTesting(){
+		
+		User u1= getUserObject();
+		assertEquals("User 1 password",u1.getPassword());
+		
 	}
 	
 	
