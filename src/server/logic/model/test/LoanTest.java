@@ -54,7 +54,7 @@ public class LoanTest {
 	}
 	
 	
-	//@Test
+	@Test
 	public void getISBNtesting(){
 		
 		Loan l1= gettestLoan();
@@ -62,7 +62,7 @@ public class LoanTest {
 			
 	}
 	
-	//@Test
+	@Test
 	public void setISBNtest(){
 		Loan l1 = gettestLoan();
 		l1.setIsbn("2345678");
