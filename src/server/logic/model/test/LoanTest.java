@@ -85,7 +85,13 @@ public class LoanTest {
 		assertEquals("2", l1.getCopynumber());
 	}
 	
-	
+	@Test
+	public void getDatetesting(){
+		
+		Loan l1= gettestLoan();
+		assertEquals(gettestDate(),l1.getDate());
+			
+	}
 	
 	
 	
