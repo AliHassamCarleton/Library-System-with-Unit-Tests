@@ -78,6 +78,14 @@ public class LoanTest {
 			
 	}
 	
+	@Test
+	public void setCopynumbertesting(){
+		Loan l1 = gettestLoan();
+		l1.setCopynumber("2");;
+		assertEquals("2", l1.getCopynumber());
+	}
+	
+	
 	
 	
 	
