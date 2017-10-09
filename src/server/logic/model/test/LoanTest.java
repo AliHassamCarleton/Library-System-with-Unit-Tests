@@ -100,6 +100,13 @@ public class LoanTest {
 		assertEquals(gettestDate(), l1.getDate());
 	}
 	
+	@Test
+	public void getRenewstatetesting(){
+		
+		Loan l1= gettestLoan();
+		assertEquals("renewed",l1.getRenewstate());
+			
+	}
 	
 	
 	
