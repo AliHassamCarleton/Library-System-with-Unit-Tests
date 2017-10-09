@@ -38,6 +38,13 @@ public class TitleTest {
 		assertEquals("1212121212", t1.getISBN());
 	}
 	
+	@Test
+	public void gettestBooktitle(){
+			
+		Title t1= getTitleObject();
+		assertEquals("Mobi Dick", t1.getBooktitle());
+			
+	}
 	
 
 }
