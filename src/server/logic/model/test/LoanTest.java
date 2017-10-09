@@ -4,11 +4,40 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import server.logic.model.*;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+
 public class LoanTest {
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
 
+	
+	@Test
+	public void loanConstructorPassTesting(){
+		
+		assertNotNull(new Loan (1, "1234567", "1", gettestDate(), "renewed"));	
+		
+	}
+	
+	public Date gettestDate(){
+		
+		DateFormat format1 = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+		Date date = new Date();
+		
+		return date;
+		
+	}
+	
+	public Loan gettestLoan(){
+		
+		Loan l1= new Loan (1, "1234567", "1", gettestDate(), "renewed");	
+		return l1;
+		
+	}
+	
+	
+	
 }
