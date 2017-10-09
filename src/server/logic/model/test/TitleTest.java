@@ -46,5 +46,11 @@ public class TitleTest {
 			
 	}
 	
+	@Test
+	public void settestBooktitle(){
+		Title t1= getTitleObject();
+		t1.setBooktitle("The Giver");
+		assertEquals("The Giver", t1.getBooktitle());
+	}
 
 }
