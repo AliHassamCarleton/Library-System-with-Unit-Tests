@@ -38,7 +38,7 @@ public class LoanTest {
 		
 	}
 	
-	
+	@Test
 	public void getUserIDtesting(){
 			
 		Loan l1= gettestLoan();
@@ -46,6 +46,12 @@ public class LoanTest {
 			
 	}
 	
+	@Test
+	public void setUserIDtesting(){
+			Loan l1 = gettestLoan();
+			l1.setUserid(2);
+			assertEquals(2, l1.getUserid());
+	}
 	
 	
 	
