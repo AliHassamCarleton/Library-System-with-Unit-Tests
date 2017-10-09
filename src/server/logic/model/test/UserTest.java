@@ -58,6 +58,13 @@ public class UserTest {
 		
 	}
 	
+	@Test
+	public void setPasswordTesting(){
+			User u1= getUserObject();
+			u1.setPassword("User 1 new password");
+			assertEquals("User 1 new password", u1.getPassword());
+	}
+	
 	
 	
 	
