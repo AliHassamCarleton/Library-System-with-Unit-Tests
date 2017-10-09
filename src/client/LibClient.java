@@ -10,7 +10,8 @@ import java.net.UnknownHostException;
 
 import org.apache.log4j.Logger;
 
-import utilities.Trace;
+import server.utilities.Trace;
+
 /* Modified method based on the course COMP 3004 example*/
 /*Reference:http://people.scs.carleton.ca/~jeanpier//304W16/T1%20TDD/4b-%20ChatExample%20and%20other%20files/*/
 public class LibClient implements Runnable{

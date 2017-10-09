@@ -1,6 +1,6 @@
 package client;
 
-import utilities.Config;
+import server.utilities.Config;
 
 public class StartTerminals {
 	public static void main(String[] argv) {

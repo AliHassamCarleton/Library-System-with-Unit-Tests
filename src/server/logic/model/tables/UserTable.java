@@ -1,4 +1,4 @@
-package server.logic.tables;
+package server.logic.model.tables;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 
 import server.logic.model.User;
-import utilities.Trace;
+import server.utilities.Trace;
 
 public class UserTable {
 	private Logger logger = Trace.getInstance().getLogger("opreation_file");

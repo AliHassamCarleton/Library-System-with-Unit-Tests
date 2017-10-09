@@ -1,4 +1,4 @@
-package server.logic.tables;
+package server.logic.model.tables;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -9,8 +9,8 @@ import java.util.List;
 import org.apache.log4j.Logger;
 
 import server.logic.model.Loan;
-import utilities.Config;
-import utilities.Trace;
+import server.utilities.Config;
+import server.utilities.Trace;
 
 public class LoanTable {
 	private Logger logger = Trace.getInstance().getLogger("opreation_file");

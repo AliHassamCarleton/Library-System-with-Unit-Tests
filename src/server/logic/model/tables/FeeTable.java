@@ -1,4 +1,4 @@
-package server.logic.tables;
+package server.logic.model.tables;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -8,10 +8,9 @@ import org.apache.log4j.Logger;
 
 import server.logic.model.Fee;
 import server.logic.model.Loan;
-import utilities.Config;
-import utilities.Trace;
+import server.utilities.*;
 
-public class FeeTable {
+ public class FeeTable {
 	private Logger logger = Trace.getInstance().getLogger("opreation_file");
 	List<Fee> feeList=new ArrayList<Fee>();
     private static class FeeListHolder {
