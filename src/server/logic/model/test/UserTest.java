@@ -19,5 +19,13 @@ public class UserTest {
 		return u1;
 		
 	}
+	
+	@Test
+	public void getUserIDTesting(){
+		
+		User u1= getUserObject();
+		assertEquals(1,u1.getUserid());
+		
+	}
 
 }
