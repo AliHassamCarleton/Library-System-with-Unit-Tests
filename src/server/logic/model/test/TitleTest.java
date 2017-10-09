@@ -31,6 +31,13 @@ public class TitleTest {
 			
 	}
 	
+	@Test
+	public void settestISBN(){
+		Title t1= getTitleObject();
+		t1.setISBN("1212121212");
+		assertEquals("1212121212", t1.getISBN());
+	}
+	
 	
 
 }
